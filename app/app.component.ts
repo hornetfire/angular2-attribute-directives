@@ -9,6 +9,6 @@ import { Component } from '@angular/core';
         <input type="radio" name="colors" (click)="color='yellow'">Yellow
         <input type="radio" name="colors" (click)="color='cyan'">Cyan
         </div>
-        <p [myHighlight]="color">Highlight me!</p>`
+        <p [myHighlight]="color" [defaultColor]="'violet'">Highlight me!</p>`
 })
 export class AppComponent { }
